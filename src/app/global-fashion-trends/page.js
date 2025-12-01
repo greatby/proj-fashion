@@ -49,15 +49,16 @@ export default function GlobalFashionTrendsPage() {
               </h1>
 
               <p className="mt-6 text-lg text-gray-300 max-w-3xl leading-relaxed">
-                A cinematic, practical guide to how trends start and travel — from
-                Paris ateliers to Indian street scenes. We translate runway
-                concepts to real-world wardrobes with clarity, context and taste.
+                A cinematic, practical guide to how trends start and travel —
+                from Paris ateliers to Indian street scenes. We translate runway
+                concepts to real-world wardrobes with clarity, context and
+                taste.
               </p>
 
               <div className="mt-8 flex flex-col sm:flex-row gap-3">
                 <a
                   href="#how-trends-move"
-                  className="inline-flex items-center justify-center rounded-full bg-white text-black font-semibold px-6 py-3 shadow-lg hover:translate-y-[-2px] transition-transform"
+                  className="inline-flex items-center justify-center rounded-full bg-white text-black font-semibold px-6 py-3 shadow-lg hover:-translate-y-0.5 transition-transform"
                 >
                   Read the Guide
                 </a>
@@ -74,23 +75,19 @@ export default function GlobalFashionTrendsPage() {
             <div className="lg:col-span-5 grid grid-cols-2 gap-3">
               {[
                 {
-                  src:
-                    "https://plus.unsplash.com/premium_photo-1754214179012-f69f3d15f6c6?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  src: "https://plus.unsplash.com/premium_photo-1754214179012-f69f3d15f6c6?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                   alt: "Runway silhouettes",
                 },
                 {
-                  src:
-                    "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=1200&q=60",
+                  src: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=1200&q=60",
                   alt: "Street style snapshot",
                 },
                 {
-                  src:
-                    "https://images.unsplash.com/photo-1742137745113-cfc541c68298?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  src: "https://images.unsplash.com/photo-1742137745113-cfc541c68298?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                   alt: "Textile close-up",
                 },
                 {
-                  src:
-                    "https://plus.unsplash.com/premium_photo-1726843669619-20268405018f?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  src: "https://plus.unsplash.com/premium_photo-1726843669619-20268405018f?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                   alt: "Editorial portrait",
                 },
               ].map((img) => (
@@ -123,8 +120,8 @@ export default function GlobalFashionTrendsPage() {
                 Trend pipeline
               </h4>
               <p className="mt-3 text-gray-300 text-sm leading-relaxed">
-                How ideas flow from concept to city streets — and how to pick what
-                works for you.
+                How ideas flow from concept to city streets — and how to pick
+                what works for you.
               </p>
             </div>
           </aside>
@@ -149,12 +146,12 @@ export default function GlobalFashionTrendsPage() {
                 story-telling.
               </li>
               <li>
-                <strong>Street style & creators:</strong> Real people testing the
-                idea in context.
+                <strong>Street style & creators:</strong> Real people testing
+                the idea in context.
               </li>
               <li>
-                <strong>High-street & fast adaptations:</strong> Cheap,
-                wearable iterations.
+                <strong>High-street & fast adaptations:</strong> Cheap, wearable
+                iterations.
               </li>
               <li>
                 <strong>Local remix:</strong> Translation to climate, budget,
@@ -175,7 +172,7 @@ export default function GlobalFashionTrendsPage() {
             </figure>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="rounded-2xl p-6 bg-gradient-to-b from-[#071017] to-[#06060a] border border-white/6 shadow">
+              <div className="rounded-2xl p-6 bg-linear-to-b from-[#071017] to-[#06060a] border border-white/6 shadow">
                 <h3 className="text-xl font-serif mb-2">Runway to Reality</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
                   Designers test extremes on runway — our job is to pull useful
@@ -184,7 +181,7 @@ export default function GlobalFashionTrendsPage() {
                 </p>
               </div>
 
-              <div className="rounded-2xl p-6 bg-gradient-to-b from-[#071017] to-[#06060a] border border-white/6 shadow">
+              <div className="rounded-2xl p-6 bg-linear-to-b from-[#071017] to-[#06060a] border border-white/6 shadow">
                 <h3 className="text-xl font-serif mb-2">Creator Translation</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
                   Creators and street stylers provide context — how to wear, how
@@ -224,7 +221,7 @@ export default function GlobalFashionTrendsPage() {
                 loading="lazy"
                 className="w-full h-56 object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent p-6 flex items-end">
+              <div className="absolute inset-0 bg-linear-to-t from-black/70 to-transparent p-6 flex items-end">
                 <div>
                   <h4 className="text-2xl font-serif">{c.title}</h4>
                   <p className="text-gray-300 text-sm">{c.subtitle}</p>
@@ -238,32 +235,40 @@ export default function GlobalFashionTrendsPage() {
         <section className="py-16 bg-[#0b0b0e] rounded-2xl p-6 border border-white/6">
           <h2 className="text-3xl font-serif mb-6">Macro trends to track</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <article className="rounded-lg p-6 bg-gradient-to-b from-[#071017] to-[#06060a] border border-white/6">
-              <h3 className="text-xl font-medium text-yellow-300">Casualisation & Comfort</h3>
+            <article className="rounded-lg p-6 bg-linear-to-b from-[#071017] to-[#06060a] border border-white/6">
+              <h3 className="text-xl font-medium text-yellow-300">
+                Casualisation & Comfort
+              </h3>
               <p className="text-gray-300 text-sm mt-2">
-                Workwear borrows athleisure — think elevated knits, smart sneakers,
-                and relaxed tailoring that still reads intentional.
+                Workwear borrows athleisure — think elevated knits, smart
+                sneakers, and relaxed tailoring that still reads intentional.
               </p>
             </article>
 
-            <article className="rounded-lg p-6 bg-gradient-to-b from-[#071017] to-[#06060a] border border-white/6">
-              <h3 className="text-xl font-medium text-yellow-300">Sustainability & Circular</h3>
+            <article className="rounded-lg p-6 bg-linear-to-b from-[#071017] to-[#06060a] border border-white/6">
+              <h3 className="text-xl font-medium text-yellow-300">
+                Sustainability & Circular
+              </h3>
               <p className="text-gray-300 text-sm mt-2">
-                Resale, rental and repair move from niche to mainstream — buy better,
-                buy less, and care for what you own.
+                Resale, rental and repair move from niche to mainstream — buy
+                better, buy less, and care for what you own.
               </p>
             </article>
 
-            <article className="rounded-lg p-6 bg-gradient-to-b from-[#071017] to-[#06060a] border border-white/6">
-              <h3 className="text-xl font-medium text-yellow-300">Fast vs Slow</h3>
+            <article className="rounded-lg p-6 bg-linear-to-b from-[#071017] to-[#06060a] border border-white/6">
+              <h3 className="text-xl font-medium text-yellow-300">
+                Fast vs Slow
+              </h3>
               <p className="text-gray-300 text-sm mt-2">
-                A hybrid wardrobe mixes high-street finds with vintage and investment
-                pieces — a pragmatic, modern approach.
+                A hybrid wardrobe mixes high-street finds with vintage and
+                investment pieces — a pragmatic, modern approach.
               </p>
             </article>
 
-            <article className="rounded-lg p-6 bg-gradient-to-b from-[#071017] to-[#06060a] border border-white/6">
-              <h3 className="text-xl font-medium text-yellow-300">Creator-Led Fashion</h3>
+            <article className="rounded-lg p-6 bg-linear-to-b from-[#071017] to-[#06060a] border border-white/6">
+              <h3 className="text-xl font-medium text-yellow-300">
+                Creator-Led Fashion
+              </h3>
               <p className="text-gray-300 text-sm mt-2">
                 Community-driven aesthetics and micro-trends spread quickly — we
                 help you filter signal from noise.
@@ -276,11 +281,13 @@ export default function GlobalFashionTrendsPage() {
         <section className="py-16">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
             <div className="lg:col-span-2 prose prose-invert max-w-none">
-              <h2 className="text-3xl font-serif">Translating global trends for India</h2>
+              <h2 className="text-3xl font-serif">
+                Translating global trends for India
+              </h2>
               <p className="text-gray-300">
-                The key question: how to adapt runway ideas to climate, culture and
-                budget. A good translation preserves the spirit while changing the
-                scale, fabric and color story.
+                The key question: how to adapt runway ideas to climate, culture
+                and budget. A good translation preserves the spirit while
+                changing the scale, fabric and color story.
               </p>
 
               <ul className="mt-4 text-gray-300 space-y-2">
@@ -291,8 +298,10 @@ export default function GlobalFashionTrendsPage() {
               </ul>
             </div>
 
-            <aside className="rounded-2xl p-6 bg-gradient-to-b from-[#071017] to-[#06060a] border border-white/6 shadow">
-              <h4 className="text-yellow-300 text-sm font-medium uppercase">Quick tips</h4>
+            <aside className="rounded-2xl p-6 bg-linear-to-b from-[#071017] to-[#06060a] border border-white/6 shadow">
+              <h4 className="text-yellow-300 text-sm font-medium uppercase">
+                Quick tips
+              </h4>
               <ol className="mt-4 text-gray-300 list-decimal list-inside space-y-2 text-sm">
                 <li>Pick one trend element per outfit.</li>
                 <li>Use accessories to test a trend cheaply.</li>
@@ -304,26 +313,38 @@ export default function GlobalFashionTrendsPage() {
 
         {/* What to buy */}
         <section id="what-to-buy" className="py-16 border-t border-white/6">
-          <h2 className="text-3xl font-serif mb-4">What to buy — simple rules</h2>
+          <h2 className="text-3xl font-serif mb-4">
+            What to buy — simple rules
+          </h2>
           <p className="text-gray-300 max-w-3xl">
             Invest in good basics and footwear. Try trends through accessories
             first. Avoid pieces that only work for one fleeting moment.
           </p>
 
           <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-300">
-            <li className="rounded-lg p-4 bg-[#071017] border border-white/6">Quality outerwear</li>
-            <li className="rounded-lg p-4 bg-[#071017] border border-white/6">Neutral footwear</li>
-            <li className="rounded-lg p-4 bg-[#071017] border border-white/6">Accessories to test trends</li>
-            <li className="rounded-lg p-4 bg-[#071017] border border-white/6">Seasonal investment pieces</li>
+            <li className="rounded-lg p-4 bg-[#071017] border border-white/6">
+              Quality outerwear
+            </li>
+            <li className="rounded-lg p-4 bg-[#071017] border border-white/6">
+              Neutral footwear
+            </li>
+            <li className="rounded-lg p-4 bg-[#071017] border border-white/6">
+              Accessories to test trends
+            </li>
+            <li className="rounded-lg p-4 bg-[#071017] border border-white/6">
+              Seasonal investment pieces
+            </li>
           </ul>
         </section>
 
         {/* CTA / Newsletter */}
         <section className="py-16">
-          <div className="rounded-2xl p-8 bg-gradient-to-br from-[#0a0b0f] to-[#071017] border border-white/6 shadow-xl flex flex-col md:flex-row items-center gap-6">
+          <div className="rounded-2xl p-8 bg-linear-to-br from-[#0a0b0f] to-[#071017] border border-white/6 shadow-xl flex flex-col md:flex-row items-center gap-6">
             <div className="flex-1">
               <h3 className="text-2xl font-serif">Keep the edits coming</h3>
-              <p className="text-gray-300 mt-2">Subscribe for concise, India-first fashion intelligence.</p>
+              <p className="text-gray-300 mt-2">
+                Subscribe for concise, India-first fashion intelligence.
+              </p>
             </div>
 
             <form
@@ -345,8 +366,6 @@ export default function GlobalFashionTrendsPage() {
           </div>
         </section>
       </div>
-
-    
     </main>
   );
 }

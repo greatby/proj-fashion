@@ -1,7 +1,6 @@
 export default function LandingPage() {
   return (
     <main className="bg-black text-white pt-24">
-
       {/* ================= HERO ================= */}
       <section
         className="relative w-full bg-cover bg-center"
@@ -12,12 +11,13 @@ export default function LandingPage() {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-32">
           <h1 className="text-4xl md:text-6xl font-semibold max-w-4xl leading-tight">
-            The Latest in Fashion — <span className="text-fuchsia-400">Starting from India</span>
+            The Latest in Fashion —{" "}
+            <span className="text-fuchsia-400">Starting from India</span>
           </h1>
 
           <p className="mt-6 text-gray-300 text-lg max-w-2xl leading-relaxed">
-            World Fashion Now curates fashion intelligence — from Delhi and Mumbai street style
-            to Paris, Milan, New York and Tokyo runways.
+            World Fashion Now curates fashion intelligence — from Delhi and
+            Mumbai street style to Paris, Milan, New York and Tokyo runways.
           </p>
 
           <div className="mt-8">
@@ -34,14 +34,15 @@ export default function LandingPage() {
       {/* ================= INDIA FASHION ================= */}
       <section className="py-20 border-t border-white/10 bg-black">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
-          
           {/* Left Text */}
           <div>
-            <h2 className="text-3xl font-semibold">Latest Fashion from India</h2>
+            <h2 className="text-3xl font-semibold">
+              Latest Fashion from India
+            </h2>
 
             <p className="mt-4 text-gray-300 leading-relaxed max-w-xl">
-              India is one of the fastest-growing apparel markets, driven by youth culture,
-              creators and powerful regional styles.
+              India is one of the fastest-growing apparel markets, driven by
+              youth culture, creators and powerful regional styles.
             </p>
 
             <ul className="mt-6 space-y-3 text-gray-400">
@@ -67,22 +68,21 @@ export default function LandingPage() {
               alt="Indian fashion"
             />
           </div>
-
         </div>
       </section>
 
       {/* ================= GLOBAL TRENDS ================= */}
-      <section className="py-24 border-t border-white/10 bg-gradient-to-b from-black to-[#0b0b0f]">
+      <section className="py-24 border-t border-white/10 bg-linear-to-b from-black to-[#0b0b0f]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          
           <div className="grid lg:grid-cols-2 gap-12">
-
             <div>
-              <h2 className="text-3xl font-semibold">Runways, Street Style & Global Trends</h2>
+              <h2 className="text-3xl font-semibold">
+                Runways, Street Style & Global Trends
+              </h2>
 
               <p className="mt-4 text-gray-300 max-w-xl">
-                The USD 1.7 trillion global apparel market evolves fast — we decode silhouettes,
-                colours, fabrics and cultural shifts.
+                The USD 1.7 trillion global apparel market evolves fast — we
+                decode silhouettes, colours, fabrics and cultural shifts.
               </p>
 
               <ul className="mt-6 space-y-3 text-gray-400">
@@ -122,7 +122,6 @@ export default function LandingPage() {
                 alt=""
               />
             </div>
-
           </div>
         </div>
       </section>
@@ -130,12 +129,12 @@ export default function LandingPage() {
       {/* ================= FASHION GUIDE ================= */}
       <section className="py-20 border-t border-white/10 bg-black">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            
             {/* Text */}
             <div>
-              <h2 className="text-3xl font-semibold">Build a Wardrobe That Works</h2>
+              <h2 className="text-3xl font-semibold">
+                Build a Wardrobe That Works
+              </h2>
 
               <p className="mt-4 text-gray-300 max-w-xl">
                 Not seasonal hype — real frameworks for everyday style.
@@ -162,18 +161,14 @@ export default function LandingPage() {
               className="rounded-xl shadow-xl object-cover h-96"
               alt="Wardrobe guide"
             />
-
           </div>
-
         </div>
       </section>
 
       {/* ================= SUSTAINABILITY ================= */}
       <section className="py-20 border-t border-white/10 bg-[#0a0a0c]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            
             {/* Image */}
             <div className="rounded-xl overflow-hidden shadow-xl">
               <img
@@ -185,7 +180,9 @@ export default function LandingPage() {
 
             {/* Text */}
             <div>
-              <h2 className="text-3xl font-semibold">Sustainability & Responsible Fashion</h2>
+              <h2 className="text-3xl font-semibold">
+                Sustainability & Responsible Fashion
+              </h2>
               <p className="mt-4 text-gray-300 max-w-xl">
                 As fast fashion expands, consumers demand clarity and honesty.
               </p>
@@ -196,7 +193,6 @@ export default function LandingPage() {
                 <li>Reuse, repair, rent & swapping culture</li>
               </ul>
             </div>
-
           </div>
         </div>
       </section>
@@ -204,11 +200,11 @@ export default function LandingPage() {
       {/* ================= BRANDS & CREATORS ================= */}
       <section className="py-20 border-t border-white/10 bg-black">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-
           <div className="grid lg:grid-cols-2 gap-12 items-start">
-
             <div>
-              <h2 className="text-3xl font-semibold">For Brands, Designers & Creators</h2>
+              <h2 className="text-3xl font-semibold">
+                For Brands, Designers & Creators
+              </h2>
 
               <p className="mt-4 text-gray-300 max-w-xl">
                 World Fashion Now is building a structured discovery ecosystem.
@@ -235,14 +231,12 @@ export default function LandingPage() {
               className="rounded-xl shadow-xl object-cover h-96"
               alt="Fashion creators"
             />
-
           </div>
-
         </div>
       </section>
 
       {/* ================= NEWSLETTER ================= */}
-      <section className="py-24 border-t border-white/10 bg-gradient-to-b from-black to-[#08080c]">
+      <section className="py-24 border-t border-white/10 bg-linear-to-b from-black to-[#08080c]">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-semibold">Stay Updated</h2>
           <p className="mt-4 text-gray-300 max-w-xl mx-auto">
@@ -261,7 +255,6 @@ export default function LandingPage() {
           </form>
         </div>
       </section>
-
     </main>
   );
 }

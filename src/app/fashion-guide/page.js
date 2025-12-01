@@ -103,7 +103,7 @@ export default function FashionGuidePage() {
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <a
                   href="#essentials"
-                  className="inline-block rounded-full bg-gradient-to-r from-pink-500 to-fuchsia-600 px-6 py-3 font-semibold text-black shadow-lg transform hover:-translate-y-0.5 transition"
+                  className="inline-block rounded-full bg-linear-to-r from-pink-500 to-fuchsia-600 px-6 py-3 font-semibold text-black shadow-lg transform hover:-translate-y-0.5 transition"
                 >
                   View Wardrobe Essentials
                 </a>
@@ -176,7 +176,7 @@ export default function FashionGuidePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Women */}
-            <article className="rounded-2xl bg-gradient-to-br from-[#071017] to-[#0b1220] border border-white/6 p-6 shadow-lg">
+            <article className="rounded-2xl bg-linear-to-br from-[#071017] to-[#0b1220] border border-white/6 p-6 shadow-lg">
               <h4 className="text-lg font-medium text-pink-400 mb-2">
                 Women's core pieces
               </h4>
@@ -190,7 +190,7 @@ export default function FashionGuidePage() {
             </article>
 
             {/* Men */}
-            <article className="rounded-2xl bg-gradient-to-br from-[#071017] to-[#0b1220] border border-white/6 p-6 shadow-lg">
+            <article className="rounded-2xl bg-linear-to-br from-[#071017] to-[#0b1220] border border-white/6 p-6 shadow-lg">
               <h4 className="text-lg font-medium text-pink-400 mb-2">
                 Men's core pieces
               </h4>
@@ -206,7 +206,7 @@ export default function FashionGuidePage() {
             </article>
 
             {/* Gender-neutral */}
-            <article className="rounded-2xl bg-gradient-to-br from-[#071017] to-[#0b1220] border border-white/6 p-6 shadow-lg">
+            <article className="rounded-2xl bg-linear-to-br from-[#071017] to-[#0b1220] border border-white/6 p-6 shadow-lg">
               <h4 className="text-lg font-medium text-pink-400 mb-2">
                 Gender-neutral basics
               </h4>
